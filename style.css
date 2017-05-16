@@ -1,0 +1,111 @@
+body{
+  background-color: whitesmoke;
+}
+
+.header{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+}
+
+.container{
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  height: 600px;
+  width: 800px;
+  border: 2px solid black;
+  padding: 0;
+}
+
+.container .paddle{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;  
+  position: absolute;
+  background-color: black;
+  bottom: 20px;
+  left: 340px;
+  width: 100px;
+  height: 20px;
+  border-radius: 6px;
+}
+
+.container .ball{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;  
+  position: absolute;
+  background-color: blue;
+  bottom: 40px;
+  left: 375px;
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  z-index: 10;
+
+}
+
+.container .brick{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;  
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.container .brick.row-1{
+  top: 0px;
+}
+.container .brick.row-2{
+  top: 20px;
+}
+.container .brick.row-3{
+  top: 40px;
+}
+.container .brick.row-4{
+  top: 60px;
+}
+.container .brick.row-5{
+  top: 80px;
+}
+.container .brick.row-6{
+  top: 100px;
+}
+.container .brick.row-7{
+  top: 120px;
+}
+.container .brick.row-8{
+  top: 140px;
+}
+
+.container .brick.col-1{
+  left: 0px;
+}
+.container .brick.col-2{
+  left: 100px;
+}
+.container .brick.col-3{
+  left: 200px;
+}
+.container .brick.col-4{
+  left: 300px;
+}
+.container .brick.col-5{
+  left: 400px;
+}
+.container .brick.col-6{
+  left: 500px;
+}
+.container .brick.col-7{
+  left: 600px;
+}
+.container .brick.col-8{
+  left: 700px;
+}
